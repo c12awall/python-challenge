@@ -1,4 +1,4 @@
-# Unit 3 | Assignment - Py Me Up, Charlie (PyPoll)
+# PyPoll
 
 # Import Modules/Dependencies
 import os
@@ -73,7 +73,7 @@ print(f"---------------------------")
 # Specify File To Write To
 output_file = os.path.join('.', 'PyPoll', 'election_data.text')
 
-# Open File Using "Write" Mode. Specify The Variable To Hold The Contents
+# Open File
 with open(output_file, 'w',) as txtfile:
 
 # Write New Data
